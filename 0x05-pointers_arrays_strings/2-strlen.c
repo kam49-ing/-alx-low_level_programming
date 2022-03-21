@@ -1,5 +1,6 @@
 #include<string.h>
-
-int _strlen(char *s){
+// _strlen
+int _strlen(char *s)
+{
 	return strlen(s);
 }
