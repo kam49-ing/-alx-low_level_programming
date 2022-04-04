@@ -1,29 +1,22 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * print_to_98 - prints all the natural numbers from n to 98
- *
- * @n: interger to be tested
- * Return: list of numbers
+ * print_to_98 - print all natural numbers from n to 98.
+ * @n: the number to start counting from n to 98
+ * Return: Always 0.
  */
 void print_to_98(int n)
 {
-	int i;
-
-	if (n <= 98)
-	{
-		for (i = n; i < 98; i++)
-		{
-			printf("%i, ", i);
-		}
-	}
-	else
-	{
-		for (i = n; i > 98; i--)
-		{
-			printf("%i, ", i);
-		}
-	}
-	printf("98\n");
+if (n < 98)
+{
+for (n = n; n < 98; n++)
+printf("%d, ", n);
+printf("%d\n", 98);
+}
+else
+{
+for (n = n; n > 98; n--)
+printf("%d, ", n);
+printf("%d\n", 98);
+}
 }

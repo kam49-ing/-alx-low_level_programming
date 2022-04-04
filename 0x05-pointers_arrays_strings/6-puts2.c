@@ -1,15 +1,14 @@
 #include "main.h"
+
 /**
- *puts2 - prints very other character in string.
- *@str: pointer to string.
- *
- *Return: void.
+ * puts2 - prints every other character of a string.
+ *@str: the string to use.
  */
+
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
 	while (str[i] != '\0')
 	{
 		if (i % 2 == 0)

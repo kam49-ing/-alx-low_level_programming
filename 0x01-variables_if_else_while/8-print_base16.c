@@ -1,23 +1,25 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * Return: always 0 (Success/correct)
- */
+  * main - Prints a hexadecimal string
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-	char base_16;
+	char c;
 
-	for (base_16 = 48; base_16 <= 57; base_16++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar(base_16);
+		putchar(c);
 	}
 
-	for (base_16 = 97; base_16 <= 102; base_16++)
+	for (c = 'a'; c <= 'f'; c++)
 	{
-		putchar(base_16);
+		putchar(c);
 	}
 
-	putchar ('\n');
+	putchar('\n');
+
 	return (0);
 }

@@ -1,20 +1,23 @@
 #include "main.h"
+
+
 /**
- * main - Entry block
- * Description: prints holberton on new line
- * Return: 0
+ * main - Entry point
+ *
+ * Return: nothing, return void
  */
+
 int main(void)
 {
-	char c[8] = "_putchar";
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-	int i = 0;
-
-	while (i < 8)
-	{
-		_putchar(c[i]);
-		i++;
-	}
-	_putchar('\n');
-	return (0);
+return (0);
 }

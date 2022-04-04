@@ -1,21 +1,20 @@
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: always 0 (Success/correct)
- */
 
+/**
+  * main - Prints some letters of alphabet
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-	char alphabet;
+	char c;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (alphabet == 'q')
-			continue;
-		else if (alphabet == 'e')
-			continue;
-		putchar(alphabet);
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
 	}
 
 	putchar('\n');
