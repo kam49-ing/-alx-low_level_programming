@@ -10,9 +10,8 @@
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i;
+	unsigned int i;
 	int comparison;
-	i = 0;
 	if (size<0)
 	{
 		return (-1);
