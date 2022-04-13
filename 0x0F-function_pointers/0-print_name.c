@@ -3,7 +3,7 @@
 /**
  * print_name - prints name
  * @name: name of a person
- * @(*f)(char *): function pointer
+ * @f: function pointer
  *
  * Return: Nothing.
  */

@@ -4,7 +4,7 @@
  * array_iterator - execute a given function as a parameter on each element of an array
  * @array: array of int
  * @size: size of array
- * @(*action)(int): the given function
+ * @action: the given function
  *
  * Return: Nothing.
  */
