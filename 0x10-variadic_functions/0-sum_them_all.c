@@ -6,7 +6,7 @@
  *
  * Return: 0 if n <= 0, the sum of parameters otherwise
  */
-fun sum_them_all(const unsigned int n, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 	int sum = 0;
 	va_list ap;
