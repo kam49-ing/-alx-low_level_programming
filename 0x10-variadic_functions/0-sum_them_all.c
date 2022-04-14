@@ -3,7 +3,7 @@
  * @n: first parameter
  * ...: variadics parameters
  *
- * Return: 0 if n <= 0, the sum of parameters otherwise
+ * Return: 0 if n = 0, the sum of parameters otherwise
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -11,6 +11,8 @@ int sum_them_all(const unsigned int n, ...)
 	va_list ap;
 	unsigned int i;
 
+	if (n == 0)
+		return (0);
 	va_start(ap, n);
 
 	for (i = 0; i < n; i++)
