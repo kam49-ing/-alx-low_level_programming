@@ -1,5 +1,5 @@
-#ifndef VARIADIC_HEADER
-#define VARIADIC_HEADER
+#ifndef _VARIADIC_HEADER_
+#define _VARIADIC_HEADER_
 
 #include <stdarg.h>
 int _putchar(char c);
