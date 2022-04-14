@@ -1,7 +1,6 @@
 /**
  * sum_them_all - sum an unknown number of integers
  * @n: first parameter
- * ...: variadics parameters
  *
  * Return: 0 if n = 0, the sum of parameters otherwise
  */
