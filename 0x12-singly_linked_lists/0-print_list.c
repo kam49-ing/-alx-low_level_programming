@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_list - print all element in a given linked list
+ * print_list - prints all element in a given linked list
  *
  * @h: the head of the given list
  *
@@ -19,6 +19,7 @@ size_t print_list(const list_t *h)
 		if (!h->str)
 		{
 			printf("[0] (nil)");
+			printf("\n");
 			break;
 		}
 		printf("[%d] %s\n", h->len, h->str);

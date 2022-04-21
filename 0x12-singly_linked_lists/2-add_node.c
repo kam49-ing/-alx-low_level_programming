@@ -2,7 +2,7 @@
 #include "string.h"
 
 /**
- * add_node - Add a node to the beginning of a given list
+ * add_node - Adds a node to the beginning of a given list
  *
  * @head: head of the list
  * @str: string to be added in the list

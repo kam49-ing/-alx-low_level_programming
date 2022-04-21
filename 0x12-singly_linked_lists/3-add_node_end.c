@@ -1,9 +1,8 @@
 #include "lists.h"
 #include <string.h>
-#include <stdio.h>
 
 /**
- * add_node_end - add an element at the end of the list
+ * add_node_end - adds an element at the end of the list
  *
  * @head: the head of the given list
  * @str: string to be added
