@@ -7,7 +7,7 @@
  * @head: head of the list
  * @str: string to be added in the list
  *
- * Return: Head of the new list
+ * Return: Address of the new element
  */
 list_t *add_node(list_t **head, const char *str)
 {
@@ -22,5 +22,5 @@ list_t *add_node(list_t **head, const char *str)
 	node->next = *head;
 	*head = node;
 
-	return (*head);
+	return (node);
 }
