@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_listint - print all element in the list
+ * print_listint - prints all element in the list
  *
  * @h: head of the list
  *
