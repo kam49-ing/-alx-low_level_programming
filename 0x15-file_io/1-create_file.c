@@ -15,7 +15,10 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	for (i = 0; text_content[i] != '\0'; i++)
 		n++;
-	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
+	if (access(filename, R_OK))
+		fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC);
+	else
+		fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 	if (fd == -1)
 		return (-1);
 	if (n == 0)
