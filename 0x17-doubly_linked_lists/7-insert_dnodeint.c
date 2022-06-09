@@ -1,12 +1,12 @@
 #include "lists.h"
 /**
-  * insert_dnodeint_at_index - inserts a nd=ew node at a given position.
-  * @h: double pointer to list.
-  * @idx: index of the list where the new node should be added.
-  * @n: new node.
-  *
-  * Return: address of the new node or NULL
-  */
+ * insert_dnodeint_at_index - inserts a nd=ew node at a given position.
+ * @h: double pointer to list.
+ * @idx: index of the list where the new node should be added.
+ * @n: new node.
+ *
+ * Return: address of the new node or NULL
+ */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new_node, *temp;
